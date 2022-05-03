@@ -43,7 +43,7 @@ html {
     justify-content: center;
 }
 
-/*Fin Header*/
+/*--------Fin Header----------*/
 
 /*Zona Navegable*/
 
@@ -51,8 +51,6 @@ html {
     background-color: whitesmoke;
     margin-top: 10px;
 }
-
-
 
 /*Li Individuales*/
 
@@ -90,7 +88,7 @@ html {
     color: white;
 }
 
-
+/*-----Fin zona Navegable------*/
 
 /*Main- Sección Principal - INDEX.html*/
 
@@ -161,25 +159,26 @@ html {
 }
 
 
+/*----Fin Sección Principal - INDEX.html-----*/
+
 
 /*Main- Sección Principal - GALERIA.html*/
 
-.galeria {
-    padding-top: 1px;
-    padding-bottom: 1px;
+.fotos-galeria {
+    width: 430px;
+    height: auto;
+
+}
+
+.main-galeria {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 10px;
-    column-gap: 10px;
     row-gap: 10px;
+    column-gap: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.imagen {
-    width: auto;
-
-}
-
+/*-----Fin Sección Principal - GALERÍA.html----*/
 
 
 /*Main- Sección Principal - CONTACTO.html*/
@@ -195,7 +194,7 @@ html {
 
 }
 
-
+/*---Fin sección principal CONTACTO.html*/
 
 /*Estilos de todos los HTML*/
 
@@ -246,9 +245,6 @@ html {
 .li-menuhorarios {
     list-style: none;
     font-size: 20px;
-
-
-
 }
 
 /*Contacto*/
@@ -258,7 +254,6 @@ html {
     display: flex;
     justify-content: left;
     align-items: center;
-
 }
 
 /*Titulo Contacto*/
@@ -298,8 +293,6 @@ html {
     justify-content: flex-end;
     padding: 10px;
     margin: 20px;
-
-
 }
 
 
@@ -308,7 +301,6 @@ html {
     display: flex;
     align-items: right;
     height: 30px;
-
 }
 
 /*Copyright*/
