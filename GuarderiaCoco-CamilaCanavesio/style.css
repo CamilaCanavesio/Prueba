@@ -14,17 +14,23 @@ html {
 
 .cabecera {
     background-color: white;
-
 }
 
 /*Encabezado con Logo*/
 
 .section-cabecera {
     font-family: 'Fredoka One', cursive;
-    color: #43B929;
-    font-size: 7rem;
-    text-align: center;
-    margin-top: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-h1 {
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #019267;
 }
 
 /*Logo*/
@@ -32,74 +38,89 @@ html {
 .imagen-logo {
     width: 200px;
     height: 200px;
-    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Fin Header*/
 
 /*Zona Navegable*/
 
-.navegable {
-    background-color: whitesmoke;
-    font-size: 2rem;
-}
-
-/*Menu Navegable*/
-
 .menu-navegable {
-    list-style: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-between;
+    background-color: whitesmoke;
+    margin-top: 10px;
 }
+
 
 
 /*Li Individuales*/
+
 .li-navegable {
-    display: inline;
-    font-weight: bold;
-    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
 }
 
 .li-navegable a:hover {
-    background-color: #FF37A6;
-    padding: 10px;
+    background-color: #019267;
+    padding: auto;
 }
 
-.usuario-menu {
-    vertical-align: middle;
+.buscar-boton {
+    outline: none;
+    border: solid 1px #019267;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
 }
+
+.buscar-boton2 {
+    color: #019267;
+    border-color: #019267;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.buscar-boton2:hover {
+    background-color: #FF7BA9;
+    border: solid #FF7BA9;
+    color: white;
+}
+
 
 
 /*Main- Sección Principal - INDEX.html*/
 
 .seccion-principal {
-    background-image: url(../GuarderiaCoco-CamilaCanavesio/Imagenes/fondo.jpeg);
+    background-color: #019267;
     background-size: cover;
-    background-attachment: fixed;
     position: relative;
-    align-items: center;
-    height: 600px;
-    width: auto;
-    padding-top: 150px;
+}
 
+.fondo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Titulo h2*/
 
 .titulo-h2 {
     background-color: white;
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: 'Poppins', sans-serif;
-    color: #FF37A6;
+    color: #019267;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
-    margin-left: 30px;
+    padding: 20px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 /*Párrafo Principal*/
@@ -108,36 +129,38 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     background-color: white;
-    padding-top: 80px;
-    overflow: hidden;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 /*Botón Conocenos*/
 
-.conocenos-boton {
-    background-color: white;
+.boton-main {
+    background-color: #FF7BA9;
+    color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 4rem;
+    font-weight: bold;
     display: flex;
     justify-content: center;
-    line-height: 100px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 70px;
-
+    align-items: center;
+    border: solid 1px #FF7BA9;
+    box-shadow: inset white;
+    font-size: 3rem;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
-.conocenos-boton a:hover {
-    background-color: #FF37A6;
-    border: solid 2px rgb(197, 35, 146);
-    border-radius: 20px;
-    padding-bottom: 20px;
-
+.boton-main:hover {
+    background-color: white;
+    color: #FF7BA9;
+    border: solid 1px #FF7BA9;
 }
+
+
 
 /*Main- Sección Principal - GALERIA.html*/
 
@@ -201,44 +224,55 @@ html {
 /*Título Horarios*/
 
 .tituloh5-horario {
-    font-size: 25px;
-    color: #43B929;
+    font-size: 3rem;
+    color: #019267;
     font-weight: bold;
     margin-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
 }
 
 /*Menu Horarios*/
 
 .menu-horarios {
     margin-left: 20px;
-
+    padding: 20px;
 
 }
 
 /*Opciones*/
 
 .li-menuhorarios {
-    list-style: circle;
+    list-style: none;
     font-size: 20px;
-    margin-left: 20px;
+
+
+
 }
 
 /*Contacto*/
 
 .contacto-footer {
     text-align: right;
-    padding-top: 20px;
-    padding-right: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
 }
 
 /*Titulo Contacto*/
 
 .tituloh5-contacto {
     font-size: 3rem;
-    color: #43B929;
+    color: #019267;
     font-weight: bold;
     padding-right: 10px;
-    align-items: right;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
 }
 
 /*Menu contacto*/
@@ -246,6 +280,7 @@ html {
 .menu-contacto {
     margin-right: 20px;
     padding: 20px;
+
 }
 
 /*Opciones Contacto*/
@@ -253,6 +288,7 @@ html {
 .li-contacto {
     font-size: 20px;
     list-style: none;
+
 }
 
 /*Redes Sociales*/
@@ -263,13 +299,16 @@ html {
     padding: 10px;
     margin: 20px;
 
+
 }
 
 
 
-.whatsapp {
-    height: 40px;
-    padding-top: 50px;
+.whatsapp-1 {
+    display: flex;
+    align-items: right;
+    height: 30px;
+
 }
 
 /*Copyright*/
@@ -284,7 +323,7 @@ html {
     /*-----Gradient-----*/
 
     background: rgb(251, 251, 251);
-    background: linear-gradient(90deg, rgba(251, 251, 251, 1) 0%, rgba(159, 244, 135, 0.5723331568955707) 32%, rgba(52, 200, 10, 1) 100%);
+    background: linear-gradient(90deg, rgba(251, 251, 251, 1) 0%, rgba(45, 179, 139, 0.4462827367275035) 54%, rgba(1, 146, 103, 1) 100%);
 
 }
 
@@ -313,7 +352,7 @@ html {
 
 @media (min-width:576px) and (max-width:992px) {
 
-    main,
+    header main,
     footer,
     .galeria,
     .tituloh5-contacto {
