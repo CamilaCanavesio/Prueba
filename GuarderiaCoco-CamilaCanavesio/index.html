@@ -41,12 +41,18 @@
     <!--Encabezado con Logo + zona navegable Aplicado a todos los HTML-->
 
     <header class="cabecera">
-        <section class="section-cabecera">
 
-            <h1 class="titulo-h1"> We are Coco </h1>
-            <a href="index.html"><img src="imagenes/Logo.jpg" alt="Logo" class="imagen-logo"></a>
-
-        </section>
+        <div class="container-fluid section-cabecera">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulo-h1">
+                        We Are Coco
+                    </h1>
+                    <img alt="Bootstrap Image Preview" src="../GuarderiaCoco-CamilaCanavesio/Imagenes/Logo.jpg"
+                        class="imagen-logo" />
+                </div>
+            </div>
+        </div>
 
 
         <!--Zona Navegable - menú de opciones-->
@@ -83,7 +89,8 @@
                     <form class="d-flex">
                         <input class="form-control me-2  buscar-boton " type="search" placeholder="Escribe aqui..."
                             aria-label="Search">
-                        <button class="btn btn-outline-primary boton-navegable buscar-boton2" type="submit">Buscar</button>
+                        <button class="btn btn-outline-primary boton-navegable buscar-boton2"
+                            type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -126,12 +133,13 @@
     <!--footer con Bootstrap-->
 
     <footer>
-        <div class="container-fluid footer">
+        <div class="container-fluid">
 
             <!----------------Horarios de atención------------->
+
             <div class="row">
-                <div class="col-md-6">
-                    <h5 class="tituloh5-horario">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-horario">
                         Horarios de Atención
                     </h5>
                     <ul class="menu-horarios">
@@ -147,63 +155,71 @@
                     </ul>
                 </div>
 
+                <!------Newsletter-------->
 
-                <!------Contacto-------->
 
-                <div class="col-md-6">
-                    <h5 class="tituloh5-contacto">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-newsletter">
+                        Nuestro Newsletter
+                    </h5>
+                    <p class="parrafo-newsletter">
+                        Si querés suscribirte a nuestro newsletter mensual de novedades, dejanos tu email y nos
+                        pondremos en contacto.
+                    </p>
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="wearecoco@gmail.com" class="texto-newsletter"><input type="submit"
+                            value="Suscribite" class="boton-suscribite">
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-contacto">
                         Contacto
                     </h5>
                     <ul class="menu-contacto">
                         <li class="list-item li-contacto">
-                            <img src="imagenes/Telefono-Fijo.png" alt="Telefono-Fijo"> (0348) 4228-3807
+                            <strong class="strong-contacto">Teléfono</strong> (0348) 4228-3807
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/email.png" alt="email"> wearecoco@gmail.com
+                            <strong class="strong-contacto">Email</strong> wearecoco@gmail.com
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/marcador-de-posicion.png" alt="ubicacion"> Colectora Este Ramar Escobar,
+                            <strong class="strong-contacto">Dirección</strong> Colectora Este Ramal Escobar,
                             Libertad 50, B1648 Benavídez, Provincia de Buenos Aires
 
                         </li>
 
                     </ul>
-
                 </div>
-
-
-
             </div>
+        </div>
 
 
 
-            <!--Sección Redes Sociales-->
-            <div class="redes-sociales animate__animated animate__bounce">
-                <a href="https://web.whatsapp.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp"
-                        class="whatsapp-1"></a>
+        <!--Sección Redes Sociales-->
+        <div class="redes-sociales animate__animated animate__bounce">
+            <a href="https://web.whatsapp.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp" class="whatsapp-1"></a>
 
-                <a href="https://www.instagram.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
-                        class="whatsapp-1"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
+                    class="whatsapp-1"></a>
 
-                <a href="https://es-la.facebook.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
-                        class="whatsapp-1"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
+                    class="whatsapp-1"></a>
 
-                <a href="https://www.youtube.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube"
-                        class="whatsapp-1"></a>
+            <a href="https://www.youtube.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube" class="whatsapp-1"></a>
 
-            </div>
+        </div>
 
-            <!--Sección copyright-->
+        <!--Sección copyright-->
 
-            <div class="copyright">
-                <h6 class="titulo-h6">
-                    Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
-                </h6>
-            </div>
+        <div class="copyright">
+            <h6 class="titulo-h6">
+                Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
+            </h6>
+        </div>
 
     </footer>
 

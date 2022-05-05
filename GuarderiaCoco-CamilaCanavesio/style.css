@@ -10,30 +10,30 @@ html {
 
 /*Estilos de todos los HTML*/
 
-/*Header*/
+/*----------------Header----------------*/
 
 .cabecera {
     background-color: white;
 }
 
-/*Encabezado con Logo*/
 
 .section-cabecera {
     font-family: 'Fredoka One', cursive;
     margin: 10px;
     display: flex;
     justify-content: center;
+    justify-items: center;
 }
 
 .titulo-h1 {
     font-size: 8rem;
     display: flex;
     justify-content: center;
+    display: inline;
     align-items: center;
     color: #019267;
 }
 
-/*Logo*/
 
 .imagen-logo {
     width: 200px;
@@ -41,11 +41,12 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: inline;
 }
 
-/*--------Fin Header----------*/
+/*---------------------------Fin Header---------------------*/
 
-/*Zona Navegable*/
+/*--------------Zona Navegable------------------------------*/
 
 .menu-navegable {
     background-color: whitesmoke;
@@ -88,9 +89,9 @@ html {
     color: white;
 }
 
-/*-----Fin zona Navegable------*/
+/*------------------Fin zona Navegable----------------------*/
 
-/*Main- Sección Principal - INDEX.html*/
+/*------------------Main- Sección Principal - INDEX.html----------------*/
 
 .seccion-principal {
     background-color: #019267;
@@ -104,7 +105,6 @@ html {
     align-items: center;
 }
 
-/*Titulo h2*/
 
 .titulo-h2 {
     background-color: white;
@@ -121,7 +121,6 @@ html {
 
 }
 
-/*Párrafo Principal*/
 
 .parrafo-h2 {
     font-family: 'Poppins', sans-serif;
@@ -159,10 +158,96 @@ html {
 }
 
 
-/*----Fin Sección Principal - INDEX.html-----*/
+/*------------------Fin Sección Principal - INDEX.html----------------------*/
+
+/*Main Sección Principal - Nosotros*/
+
+.trabajador-1 {
+    width: 150px;
+    padding-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+   
+}
+
+.trabajador-2 {
+    width: 150px;
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.tituloh2-sobrenosotros {
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #019267;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parrafo-sobrenosotros{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.venia-conocernos {
+    color: #FF7BA9;
+}
 
 
-/*Main- Sección Principal - GALERIA.html*/
+.tituloh3-sobrenosotros1 {
+    font-family: 'Poppins', sans-serif;
+    color: #019267;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top:30px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.parrafosilvia-nosotros{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.tituloh3-sobrenosotros2{
+    font-family: 'Poppins', sans-serif;
+    color: #019267;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.parrafodaniel-nosotros{
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: left;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+/*-------------Main- Sección Principal - GALERIA.html--------------*/
 
 .fotos-galeria {
     width: 430px;
@@ -181,7 +266,7 @@ html {
 /*-----Fin Sección Principal - GALERÍA.html----*/
 
 
-/*Main- Sección Principal - CONTACTO.html*/
+/*-------------Main- Sección Principal - CONTACTO.html---------------------*/
 
 .whatsapp-btn {
     position: fixed;
@@ -194,11 +279,10 @@ html {
 
 }
 
-/*---Fin sección principal CONTACTO.html*/
+/*-----------Fin sección principal CONTACTO.html--------------------*/
 
-/*Estilos de todos los HTML*/
 
-/*Footer*/
+/*------------------Footer-----------------------------------------*/
 
 .footer {
     background-color: whitesmoke;
@@ -211,79 +295,95 @@ html {
 }
 
 
-
 /*Horario de Atención*/
-
-.horario-contacto {
-    text-align: left;
-    padding-top: 20px;
-
-}
-
-/*Título Horarios*/
 
 .tituloh5-horario {
     font-size: 3rem;
     color: #019267;
     font-weight: bold;
     margin-left: 20px;
+    margin-top: 20px;
     padding-top: 20px;
     display: flex;
     justify-content: left;
+    font-family: 'Poppins', sans-serif;
 }
-
-/*Menu Horarios*/
 
 .menu-horarios {
     margin-left: 20px;
     padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 
 }
 
-/*Opciones*/
 
 .li-menuhorarios {
     list-style: none;
-    font-size: 20px;
 }
 
-/*Contacto*/
+/*Nuestro Newsletter*/
 
-.contacto-footer {
-    text-align: right;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-/*Titulo Contacto*/
-
-.tituloh5-contacto {
+.tituloh5-newsletter {
     font-size: 3rem;
     color: #019267;
     font-weight: bold;
-    padding-right: 10px;
+    margin-top: 20px;
     padding-top: 20px;
     display: flex;
     justify-content: left;
-    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.parrafo-newsletter {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.texto-newsletter {
+    outline: none;
+    border: solid 2px #FF7BA9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.boton-suscribite {
+    background-color: #FF7BA9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: solid 2px #FF7BA9;
+    font-size: 20px;
+}
+
+/*Zona CONTACTO*/
+
+.tituloh5-contacto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #019267;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
 
 }
 
-/*Menu contacto*/
 
 .menu-contacto {
-    margin-right: 20px;
     padding: 20px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
-/*Opciones Contacto*/
 
 .li-contacto {
     font-size: 20px;
     list-style: none;
-
 }
 
 /*Redes Sociales*/
@@ -295,7 +395,13 @@ html {
     margin: 20px;
 }
 
+.strong-contacto {
+    color: #FF7BA9;
+    font-weight: bold;
+    text-shadow: black 1px;
 
+
+}
 
 .whatsapp-1 {
     display: flex;
@@ -323,6 +429,8 @@ html {
     font-size: 1rem;
     align-items: left;
 }
+
+/*-----------FIN Footer--------------*/
 
 /*Vista Mobile*/
 

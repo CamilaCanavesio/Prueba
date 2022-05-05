@@ -42,12 +42,17 @@
     <!--Encabezado con Logo + zona navegable Aplicado a todos los HTML-->
 
     <header class="cabecera">
-        <section class="section-cabecera">
-
-            <h1 class="titulo-h1"> We are Coco </h1>
-            <a href="index.html"><img src="imagenes/Logo.jpg" alt="Logo" class="imagen-logo"></a>
-
-        </section>
+        <div class="container-fluid section-cabecera">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulo-h1">
+                        We Are Coco
+                    </h1>
+                    <img alt="Bootstrap Image Preview" src="../GuarderiaCoco-CamilaCanavesio/Imagenes/Logo.jpg"
+                        class="imagen-logo" />
+                </div>
+            </div>
+        </div>
 
 
         <!--Zona Navegable - menú de opciones-->
@@ -84,7 +89,8 @@
                     <form class="d-flex">
                         <input class="form-control me-2  buscar-boton " type="search" placeholder="Escribe aqui..."
                             aria-label="Search">
-                        <button class="btn btn-outline-primary boton-navegable buscar-boton2" type="submit">Buscar</button>
+                        <button class="btn btn-outline-primary boton-navegable buscar-boton2"
+                            type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -101,46 +107,81 @@
 
     <main>
 
-        <section>
-            <h2>Sobre Nosotros</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="tituloh2-sobrenosotros">
+                        About us.
+                    </h2>
+                    <p class="parrafo-sobrenosotros">
+                        Somos una pareja de adiestradores y amantes de los animales que decidió emprender esta hermosa
+                        aventura llamada Coco.
+                        <br>
+                        <br>
+                        Coco es un Club-Guardería especializado en el cuidado de Caninos, con más de 10 años de
+                        experiencia, en los cuales logramos destacarnos por el buen servicio y la constante innovación.
+                        <br>
+                        <br>
 
-            <p>
-                Somos una pareja de adiestradores y amantes de los animales que decidió emprender esta aventura dando
-                origen a Coco.
-                Coco es un Club-Guardería especializado en el cuidado de Caninos, contamos con más de 10 años de
-                experiencia y nos
-                caracterizamos por el buen servicio y la constante innovación.
-                Nuestro Club-Guarería funciona todo el año y cuenta tanto con instalaciones techadas como al aire libre.
-                En cuanto a
-                nuestros huéspedes, contamos con un proceso de evaluación antes de ser aceptados en Coco, ya que
-                nosotros buscamos
-                generar una relación con cada uno de ellos, para que puedan sentirse cómodos, protegidos y a gusto con
-                la manada. Desde
-                Coco, fomentamos siempre generar un clima de camaradería entre nuestros huéspedes.
-                Por otro lado, contamos con importantes alianzas tanto con marcas de alimentos, como con veterinarias
-                especializadas en
-                distintos tratamientos, para poder llevar a cabo nuestro proyecyo.
-                ¡Veni a conocernos!
+                        Nuestro Club-Guarería funciona todo el año, cuenta tanto con instalaciones techadas como al
+                        aire libre, por otro lado, contamos con importantes alianzas tanto con marcas de alimentos, como
+                        con veterinarias
+                        especializadas en distintos tratamientos. <br>
+                        <br>
 
-            </p>
+                        <strong class="venia-conocernos">¡Veni a conocernos!</strong>
 
-            <aside>
-                <h3>Silvia</h3>
-                <img src="imagenes/Trabajador1.jpg" alt="Trabajador1" width="300px">
-                <p>
-                    Silvia es adiestradora y abogada, además de ser una de las fundadoras de Coco-Guardería, colabora
-                    con distintos refugios y ONGs brindando asesorías legales gratuitas. En sus tiempos libres, Silvia
-                    ama cocinar, lo cual describe como su otra pasión.
-                </p>
-                <h3>Daniel</h3>
-                <img src="imagenes/Trabajador2.jpg" alt="Trabajador2" width="300px">
-                <p>
-                    Daniel es adiestrador y veterinario, junto a Silvia, son los fundadores e Coco Guardería. Él, por su
-                    parte, es apasionado de la electromecánica y en sus tiempos libres, brinda cursos gratuitos a través
-                    de distintas plataformas digitales.
-                </p>
-            </aside>
-        </section>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img alt="Bootstrap Image Preview"
+                                src="../GuarderiaCoco-CamilaCanavesio/Imagenes/Trabajador1.jpg" class="trabajador-1" />
+                        </div>
+                        <div class="col-md-6 ">
+                            <h3 class="tituloh3-sobrenosotros1">
+                                Silvia
+                            </h3>
+                            <p class="parrafosilvia-nosotros">
+                                Silvia es adiestradora y abogada, además de ser una de las fundadoras de Coco-Guardería,
+                                colabora
+                                con distintos refugios y ONGs brindando asesorías legales gratuitas. En sus tiempos
+                                libres, Silvia
+                                ama cocinar, lo cual describe como su otra pasión.
+                            </p>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img alt="Bootstrap Image Preview"
+                                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/Trabajador2.jpg"
+                                        class="trabajador-2" />
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="tituloh3-sobrenosotros2">
+                                        Daniel
+                                    </h3>
+                                    <p class="parrafodaniel-nosotros">
+                                        Daniel es adiestrador y veterinario, junto a Silvia, son los fundadores e Coco
+                                        Guardería. Él, por su
+                                        parte, es apasionado de la electromecánica y en sus tiempos libres, brinda
+                                        cursos gratuitos a través
+                                        de distintas plataformas digitales.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
     </main>
@@ -239,7 +280,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
 
-    
+
 </body>
 
 </html>
