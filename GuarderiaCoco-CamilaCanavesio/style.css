@@ -169,8 +169,8 @@ html {
     display: flex;
     justify-content: left;
     align-items: center;
-   
-   
+
+
 }
 
 .trabajador-2 {
@@ -189,7 +189,7 @@ html {
     text-align: center;
 }
 
-.parrafo-sobrenosotros{
+.parrafo-sobrenosotros {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -207,23 +207,23 @@ html {
     color: #019267;
     font-size: 3rem;
     font-weight: bold;
-    margin-top:30px;
+    margin-top: 30px;
     padding-top: 20px;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-.parrafosilvia-nosotros{
+.parrafosilvia-nosotros {
     font-family: 'Poppins', sans-serif;
     color: black;
     padding-top: 20px;
-        font-size: 15px;
+    font-size: 15px;
     text-align: left;
     margin-right: 10px;
 }
 
-.tituloh3-sobrenosotros2{
+.tituloh3-sobrenosotros2 {
     font-family: 'Poppins', sans-serif;
     color: #019267;
     font-size: 3rem;
@@ -231,7 +231,7 @@ html {
     margin-top: 50px;
 }
 
-.parrafodaniel-nosotros{
+.parrafodaniel-nosotros {
 
     font-family: 'Poppins', sans-serif;
     color: black;
@@ -244,9 +244,95 @@ html {
 }
 
 
+/*Fin Main- Nosotros*/
 
+/*Main Servicios*/
 
+.servicio-1 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
 
+.servicio-2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.servicio-guarderia {
+    display: flex;
+    justify-content: left;
+}
+
+.titulo-servicio1 {
+    font-family: 'Poppins', sans-serif;
+    color: #019267;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.parrafo-servicio1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-right: 20px;
+    text-align: start;
+
+}
+
+.titulo-servicio2 {
+    font-family: 'Poppins', sans-serif;
+    color: #019267;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.parrafo-servicio2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+}
+
+/*Fin sección principal Servicios.html*/
+
+/*Main PREGUNTASFRECUENTES.html*/
+
+.tituloh3-preguntas {
+    font-family: 'Poppins', sans-serif;
+    color: #019267;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.titulos-preguntas {
+    font-family: 'Poppins', sans-serif;
+    color: #FF7BA9;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.respuestas-preguntas {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+
+}
 
 
 /*-------------Main- Sección Principal - GALERIA.html--------------*/
@@ -288,7 +374,7 @@ html {
 
 .footer-fondo {
     background-color: whitesmoke;
-    
+
 }
 
 
