@@ -338,12 +338,15 @@ html {
 /*-------------Main- Sección Principal - GALERIA.html--------------*/
 
 .fotos-galeria {
-    width: 430px;
+    width: 350px;
     height: auto;
+    background-color: white;
+    padding: 10px;
 
 }
 
 .main-galeria {
+    background-color: #019267;
     display: grid;
     row-gap: 10px;
     column-gap: 10px;
