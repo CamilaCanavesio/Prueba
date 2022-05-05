@@ -102,31 +102,46 @@
     <!--Contenido Principal-->
 
     <main>
-        <article>
-            <h3>Guardería</h3>
-            <ul> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque iusto corrupti ratione placeat expedita
-            </ul>
-            <ul> tempore nisi reiciendis ab dolorem est sed eos suscipit voluptatibus voluptas sunt fugit esse, ut et!
-            </ul>
-            </p>
-            <img src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="guarderia" width="200px">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img alt="Bootstrap Image Preview" src="../GuarderiaCoco-CamilaCanavesio/Imagenes/Color 1.jpg" class="servicio-1" />
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="titulo-servicio1">
+                                Guardería
+                            </h3>
+                            <p class="parrafo-servicio1">
+                                Nuestro Guarería funciona todo el año y cuenta tanto con instalaciones techadas como al aire libre, ofrecemos un cuidado a medida, porque entendemos que cada perrito es diferente.
+Contamos con un proceso de evaluación antes de aceptar huéspedes en Coco, ya que buscamos  generar una relación con cada uno de ellos, para que puedan sentirse cómodos, protegidos y a gusto con la manada. 
 
-        </article>
-
-        <article>
-            <h3>Club de día</h3>
-            <p>
-            <ul> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, harum et. Distinctio repellendus quod
-            </ul>
-            <ul> iusto velit quisquam voluptatum maxime veniam eligendi harum voluptatem, dicta, nobis libero
-                moditempora, molestiae maiores.
-            </ul>
-            </p>
-            <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="Club" width="300px">
-
-        </article>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img alt="Bootstrap Image Preview" src="../GuarderiaCoco-CamilaCanavesio/Imagenes/color 2.jpg" class="servicio-2" />
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="titulo-servicio2">
+                                Club diario
+                            </h3>
+                            <p class="parrafo-servicio2">
+                                Nuestro Club funciona durante el día, para que puedas dejar a tu perrito divertirse con nuestra manada mientras pasas el día fuera de tu hogar.
+                                El Club comparte instalaciones con la guardería, por lo cual nuestros huéspedes diarios también son evaluados antes de aceptar su ingreso.  Todas las actividades son customizables, queremos que todos nuestros huéspedes se sientan a gusto. 
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -137,13 +152,14 @@
 
        <!--footer con Bootstrap-->
 
-       <footer>
-        <div class="container-fluid footer">
+    <footer class=" footer-fondo">
+        <div class="container-fluid">
 
             <!----------------Horarios de atención------------->
+
             <div class="row">
-                <div class="col-md-6">
-                    <h5 class="tituloh5-horario">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-horario">
                         Horarios de Atención
                     </h5>
                     <ul class="menu-horarios">
@@ -159,66 +175,73 @@
                     </ul>
                 </div>
 
+                <!------Newsletter-------->
 
-                <!------Contacto-------->
 
-                <div class="col-md-6">
-                    <h5 class="tituloh5-contacto">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-newsletter">
+                        Nuestro Newsletter
+                    </h5>
+                    <p class="parrafo-newsletter">
+                        Si querés suscribirte a nuestro newsletter mensual de novedades, dejanos tu email y nos
+                        pondremos en contacto.
+                    </p>
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="wearecoco@gmail.com" class="texto-newsletter"><input type="submit"
+                            value="Suscribite" class="boton-suscribite">
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-contacto">
                         Contacto
                     </h5>
                     <ul class="menu-contacto">
                         <li class="list-item li-contacto">
-                            <img src="imagenes/Telefono-Fijo.png" alt="Telefono-Fijo"> (0348) 4228-3807
+                            <strong class="strong-contacto">Teléfono</strong> (0348) 4228-3807
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/email.png" alt="email"> wearecoco@gmail.com
+                            <strong class="strong-contacto">Email</strong> wearecoco@gmail.com
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/marcador-de-posicion.png" alt="ubicacion"> Colectora Este Ramar Escobar,
+                            <strong class="strong-contacto">Dirección</strong> Colectora Este Ramal Escobar,
                             Libertad 50, B1648 Benavídez, Provincia de Buenos Aires
 
                         </li>
 
                     </ul>
-
                 </div>
-
-
-
             </div>
+        </div>
 
 
 
-            <!--Sección Redes Sociales-->
-            <div class="redes-sociales animate__animated animate__bounce">
-                <a href="https://web.whatsapp.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp"
-                        class="whatsapp-1"></a>
+        <!--Sección Redes Sociales-->
+        <div class="redes-sociales animate__animated animate__bounce">
+            <a href="https://web.whatsapp.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp" class="whatsapp-1"></a>
 
-                <a href="https://www.instagram.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
-                        class="whatsapp-1"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
+                    class="whatsapp-1"></a>
 
-                <a href="https://es-la.facebook.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
-                        class="whatsapp-1"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
+                    class="whatsapp-1"></a>
 
-                <a href="https://www.youtube.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube"
-                        class="whatsapp-1"></a>
+            <a href="https://www.youtube.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube" class="whatsapp-1"></a>
 
-            </div>
+        </div>
 
-            <!--Sección copyright-->
+        <!--Sección copyright-->
 
-            <div class="copyright">
-                <h6 class="titulo-h6">
-                    Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
-                </h6>
-            </div>
+        <div class="copyright">
+            <h6 class="titulo-h6">
+                Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
+            </h6>
+        </div>
 
     </footer>
-
 
 
 

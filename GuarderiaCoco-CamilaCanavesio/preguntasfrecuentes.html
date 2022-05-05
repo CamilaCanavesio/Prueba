@@ -103,41 +103,61 @@
         <!--Contenido Principal de la página-->
     
         <main>
-            <section>
-                <h3>
-                    Pregunta 1
-                </h3>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quae incidunt error, sapiente expedita
-                placeat id libero esse totam minima eum, commodi laboriosam, quaerat nisi porro voluptate adipisci nam
-                magnam!
-    
-                <h3>
-                    Pregunta 2
-                </h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste est tenetur maiores quia fugit animi officiis
-                eligendi qui odit cupiditate, facere facilis corporis, debitis, dolores eveniet perspiciatis quisquam fuga
-                voluptates.
-    
-                <h3>
-                    Pregunta 3
-                </h3>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam odio hic eos ullam voluptas alias nostrum.
-                Soluta tempore recusandae, doloremque pariatur fuga consequuntur rerum fugiat omnis fugit quasi magni
-                expedita?
-            </section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">
+                            h3. Lorem ipsum dolor sit amet.
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            h3. Lorem ipsum dolor sit amet.
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            h3. Lorem ipsum dolor sit amet.
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            h3. Lorem ipsum dolor sit amet.
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </main>
     
         
     
             <!--footer con Bootstrap-->
 
-    <footer>
-        <div class="container-fluid footer">
+    <!--footer con Bootstrap-->
+
+    <footer class=" footer-fondo">
+        <div class="container-fluid">
 
             <!----------------Horarios de atención------------->
+
             <div class="row">
-                <div class="col-md-6">
-                    <h5 class="tituloh5-horario">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-horario">
                         Horarios de Atención
                     </h5>
                     <ul class="menu-horarios">
@@ -153,63 +173,71 @@
                     </ul>
                 </div>
 
+                <!------Newsletter-------->
 
-                <!------Contacto-------->
 
-                <div class="col-md-6">
-                    <h5 class="tituloh5-contacto">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-newsletter">
+                        Nuestro Newsletter
+                    </h5>
+                    <p class="parrafo-newsletter">
+                        Si querés suscribirte a nuestro newsletter mensual de novedades, dejanos tu email y nos
+                        pondremos en contacto.
+                    </p>
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="wearecoco@gmail.com" class="texto-newsletter"><input type="submit"
+                            value="Suscribite" class="boton-suscribite">
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-contacto">
                         Contacto
                     </h5>
                     <ul class="menu-contacto">
                         <li class="list-item li-contacto">
-                            <img src="imagenes/Telefono-Fijo.png" alt="Telefono-Fijo"> (0348) 4228-3807
+                            <strong class="strong-contacto">Teléfono</strong> (0348) 4228-3807
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/email.png" alt="email"> wearecoco@gmail.com
+                            <strong class="strong-contacto">Email</strong> wearecoco@gmail.com
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/marcador-de-posicion.png" alt="ubicacion"> Colectora Este Ramar Escobar,
+                            <strong class="strong-contacto">Dirección</strong> Colectora Este Ramal Escobar,
                             Libertad 50, B1648 Benavídez, Provincia de Buenos Aires
 
                         </li>
 
                     </ul>
-
                 </div>
-
-
-
             </div>
+        </div>
 
 
 
-            <!--Sección Redes Sociales-->
-            <div class="redes-sociales animate__animated animate__bounce">
-                <a href="https://web.whatsapp.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp"
-                        class="whatsapp-1"></a>
+        <!--Sección Redes Sociales-->
+        <div class="redes-sociales animate__animated animate__bounce">
+            <a href="https://web.whatsapp.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp" class="whatsapp-1"></a>
 
-                <a href="https://www.instagram.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
-                        class="whatsapp-1"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
+                    class="whatsapp-1"></a>
 
-                <a href="https://es-la.facebook.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
-                        class="whatsapp-1"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
+                    class="whatsapp-1"></a>
 
-                <a href="https://www.youtube.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube"
-                        class="whatsapp-1"></a>
+            <a href="https://www.youtube.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube" class="whatsapp-1"></a>
 
-            </div>
+        </div>
 
-            <!--Sección copyright-->
+        <!--Sección copyright-->
 
-            <div class="copyright">
-                <h6 class="titulo-h6">
-                    Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
-                </h6>
-            </div>
+        <div class="copyright">
+            <h6 class="titulo-h6">
+                Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
+            </h6>
+        </div>
 
     </footer>
     

@@ -198,6 +198,7 @@ html {
 
 .venia-conocernos {
     color: #FF7BA9;
+    font-size: 3rem;
 }
 
 
@@ -217,7 +218,7 @@ html {
     font-family: 'Poppins', sans-serif;
     color: black;
     padding-top: 20px;
-    font-size: 15px;
+        font-size: 15px;
     text-align: left;
     margin-right: 10px;
 }
@@ -238,6 +239,7 @@ html {
     font-size: 15px;
     text-align: left;
     margin-right: 10px;
+    padding-bottom: 20px;
 
 }
 
@@ -284,14 +286,9 @@ html {
 
 /*------------------Footer-----------------------------------------*/
 
-.footer {
+.footer-fondo {
     background-color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-    width: auto;
-    height: auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 

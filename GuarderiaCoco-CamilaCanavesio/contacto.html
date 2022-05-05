@@ -99,36 +99,69 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <!--Contenido Principal de la página-->
 
     <main>
-        <h3>
-            Contactanos!
-        </h3>
-        <!--Formulario de Contacto-->
-        <section>
-            <article>
-                <form action="#contacto">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido"> <br>
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Telefono"> <br>
-                    <label for="Escribi.tu.consulta.aqui">Escribí tu consulta aquí:</label> <br>
-                    <textarea name="Escribi.tu.consulta.aquí" id="Escribiconsulta" cols="30" rows="10"></textarea>
-                    <!--Checkbox sobre términos y condiciones-->
-                    <div>Acepto Términos y Condiciones</div>
-                    <input type="checkbox" name="Acepto">
-                    <br>
-                    <!--Botón de Enviar-->
-                    <input type="button" value="Enviar">
-                </form>
-    
-            </article>
 
-        </section>
-            <!--Imagen de marcador de posición más dirección completa-->
-        <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>
+                        h3. Lorem ipsum dolor sit amet.
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form role="form">
+                        <div class="form-group">
+                             
+                            <label for="exampleInputEmail1">
+                                Email address
+                            </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" />
+                        </div>
+                        <div class="form-group">
+                             
+                            <label for="exampleInputPassword1">
+                                Password
+                            </label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" />
+                        </div>
+                        <div class="form-group">
+                             
+                            <label for="exampleInputFile">
+                                File input
+                            </label>
+                            <input type="file" class="form-control-file" id="exampleInputFile" />
+                            <p class="help-block">
+                                Example block-level help text here.
+                            </p>
+                        </div>
+                        <div class="checkbox">
+                             
+                            <label>
+                                <input type="checkbox" /> Check me out
+                            </label>
+                        </div> 
+                        <button type="submit" class="btn btn-primary">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                     
+                    <address>
+                         <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.8025220673253!2d-58.732532284775594!3d-34.40636498051114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca1d099ca01a1%3A0xeb8425d36c54e57d!2sTORREPUEBLO!5e0!3m2!1ses-419!2sar!4v1649026319844!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <!--
             <img src="imagenes/marcador-de-posicion.png" alt="ubicacion">
             <p>Colectora Este Ramal Escobar, Libertad 50, B1648 Benavídez, Provincia de Buenos Aires</p>
 
-            <!--Link de google maps con dirección exacta-->
+            Link de google maps con dirección exacta
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.8025220673253!2d-58.732532284775594!3d-34.40636498051114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca1d099ca01a1%3A0xeb8425d36c54e57d!2sTORREPUEBLO!5e0!3m2!1ses-419!2sar!4v1649026319844!5m2!1ses-419!2sar"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -138,19 +171,22 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
         <div class="whatsapp-fijo">
            <a href="https://www.whatsapp.com/" target="_blank"> <img src="../GuarderiaCoco-CamilaCanavesio/Imagenes/LogoFlotante.png" alt="whatsappfijo" class="whatsapp-btn">
            </div></a>
+
+        -->
     </main>
 
 
 
-       <!--footer con Bootstrap-->
+        <!--footer con Bootstrap-->
 
-       <footer>
-        <div class="container-fluid footer">
+    <footer class=" footer-fondo">
+        <div class="container-fluid">
 
             <!----------------Horarios de atención------------->
+
             <div class="row">
-                <div class="col-md-6">
-                    <h5 class="tituloh5-horario">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-horario">
                         Horarios de Atención
                     </h5>
                     <ul class="menu-horarios">
@@ -166,63 +202,71 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
                     </ul>
                 </div>
 
+                <!------Newsletter-------->
 
-                <!------Contacto-------->
 
-                <div class="col-md-6">
-                    <h5 class="tituloh5-contacto">
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-newsletter">
+                        Nuestro Newsletter
+                    </h5>
+                    <p class="parrafo-newsletter">
+                        Si querés suscribirte a nuestro newsletter mensual de novedades, dejanos tu email y nos
+                        pondremos en contacto.
+                    </p>
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="wearecoco@gmail.com" class="texto-newsletter"><input type="submit"
+                            value="Suscribite" class="boton-suscribite">
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-left tituloh5-contacto">
                         Contacto
                     </h5>
                     <ul class="menu-contacto">
                         <li class="list-item li-contacto">
-                            <img src="imagenes/Telefono-Fijo.png" alt="Telefono-Fijo"> (0348) 4228-3807
+                            <strong class="strong-contacto">Teléfono</strong> (0348) 4228-3807
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/email.png" alt="email"> wearecoco@gmail.com
+                            <strong class="strong-contacto">Email</strong> wearecoco@gmail.com
                         </li>
                         <li class="list-item li-contacto">
-                            <img src="imagenes/marcador-de-posicion.png" alt="ubicacion"> Colectora Este Ramar Escobar,
+                            <strong class="strong-contacto">Dirección</strong> Colectora Este Ramal Escobar,
                             Libertad 50, B1648 Benavídez, Provincia de Buenos Aires
 
                         </li>
 
                     </ul>
-
                 </div>
-
-
-
             </div>
+        </div>
 
 
 
-            <!--Sección Redes Sociales-->
-            <div class="redes-sociales animate__animated animate__bounce">
-                <a href="https://web.whatsapp.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp"
-                        class="whatsapp-1"></a>
+        <!--Sección Redes Sociales-->
+        <div class="redes-sociales animate__animated animate__bounce">
+            <a href="https://web.whatsapp.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/whatsapp.png" alt="whatsapp" class="whatsapp-1"></a>
 
-                <a href="https://www.instagram.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
-                        class="whatsapp-1"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/instagram.png" alt="instagram"
+                    class="whatsapp-1"></a>
 
-                <a href="https://es-la.facebook.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
-                        class="whatsapp-1"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/facebook-circular-logo.png" alt="facebook"
+                    class="whatsapp-1"></a>
 
-                <a href="https://www.youtube.com/" target="_blank"> <img
-                        src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube"
-                        class="whatsapp-1"></a>
+            <a href="https://www.youtube.com/" target="_blank"> <img
+                    src="../GuarderiaCoco-CamilaCanavesio/Imagenes/youtube.png" alt="youtube" class="whatsapp-1"></a>
 
-            </div>
+        </div>
 
-            <!--Sección copyright-->
+        <!--Sección copyright-->
 
-            <div class="copyright">
-                <h6 class="titulo-h6">
-                    Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
-                </h6>
-            </div>
+        <div class="copyright">
+            <h6 class="titulo-h6">
+                Copyright <img src="imagenes/copyright.png" alt="Copyright"> Coco
+            </h6>
+        </div>
 
     </footer>
 
